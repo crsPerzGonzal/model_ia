@@ -40,7 +40,7 @@ print("¡Listo para responder preguntas de enfermería! Escribe 'salir' para ter
 
 while True:
     pregunta = input("Tu:")
-    if pregunta.lower() ==  ["salir", "exit", "quit"]:
+    if pregunta.lower() in  ["salir", "exit", "quit"]:
         print("¡Hasta luego!")
         break
 
